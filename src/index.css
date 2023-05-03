@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+}
+
+li{
+  list-style: none;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5;
+
+}
+
+/* Login Page Styles */
+
+.loginPageContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.loginPageContainer .loginPageLeft {
+  background-color: black;
+  color: white;
+  max-width: 480px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPageContainer .loginPageRight {
+  margin: auto;
+  width: 100%;
+}
+.loginPageContainer .loginPageLeft h1 {
+  font-size: 50px;
+}
+
+/* Line And Pie Chart Styles */
+
+.Chart {
+  background-color: #fff !important;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.ChartHeading {
+position: relative;
+z-index: 99;
+padding-left: 10px;
+margin-bottom: -20px;
+max-width: 200px;
+width: 100%;
+}
+.PieChartHeading select ,.ChartHeading select {
+  border: none;
+  outline: none;
+  color: #666666;
+  background-color: #fff;
+}
+.PieChartHeading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.apexcharts-legend {
+  justify-content: center !important;
+}
+
+
+.topProductsContainer {
+  background-color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  /* max-width: 700px; */
+  width: 100%;
+}
+
+
+
+#pieChart {
+  height: 180px;
+}
+
+.pieChart {
+  height: 100%;
+  width: 100%;
+}
+
+
+.Chart .apexcharts-legend {
+  justify-content: flex-end !important;
+  }
+  
+/* Todays Schedules Components Styles */
+
+.scheduleContainer {
+  background-color: #fff;
+  height: 276px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.ScheduleHeading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.seeAll{
+  display: flex;
+  align-items: center !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666 !important;
+}
+
+.seeAll a{
+  color: #666666 !important;
+}
+
+
+.scheduleCard {
+  margin-bottom: 10px;
+  border-left: 4px solid #9BDD7C;
+  padding: 8px 0 8px 8px;
+  background-color: #fff;
+}
+
+.scheduleCard h3 {
+color: #666666;
+font-size: 17px;
+}
+
+.scheduleCard p {
+  color: #999999;
+  font-size: 15px;
+  }
+
+
+/* Statics Component Styls */
+
+.revenue {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 4fr));
+  grid-gap: 20px;
+
+}
+
+.revenueCard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.revenueCard:nth-child(1){
+  background-color: #DDEFE0;
+}
+.revenueCard:nth-child(2){
+  background-color: #F4ECDD;
+}
+.revenueCard:nth-child(3){
+  background-color: #EFDADA;
+}
+.revenueCard:nth-child(4){
+  background-color: #DEE0EF;
+}
+
+.revenueCard .icon {
+  position: relative;
+  float: right;
+  font-size: 30px;
+}
+.revenueCard .icondiv{
+  margin-bottom: 20px;
+}
+
+ /* Dashboard Page Styles */
+
+ .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.homepage {
+  width: 100% !important;
+  height: 100%;
+  padding: 2% !important;
+  display: flex;
+  flex-direction: row !important;
+}
+
+.contentWrap {
+  width: 100% !important;
+}
+
+
+.content{
+  margin-left: 20px;
+}
+/* .SideBar Components Styles */
+
+.SideBar {
+  width: 260px;
+  background-color: black;
+  color: white;
+  height: 91vh !important;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem 0rem 2rem;
+  transition: all 300ms ease;
+}
+
+
+
+.sidebar {
+  width: 96%;
+  background-color: black;
+  color: white;
+  height: 80% !important;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  padding: 2rem 0rem 0rem 2rem;
+  z-index: 999;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+
+.menu {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topMenu {
+  margin-top: 60px;
+}
+.topMenu li{
+  margin-bottom: 20px;
+}
+.topMenu .NavIcon{
+  margin-right: 8px;
+}
+
+.topMenu .Link{
+  display: flex;
+  align-items: center;
+}
+.topMenu  a {
+  margin-bottom: 16px;
+  color: white !important;
+}
+
+.topMenu  li .active {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+
+.bottomMenu p {
+  margin-bottom: 16px;
+}
+
+/* Navbar Tyles */
+
+.navbar {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .natification {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.navbar .search {
+  background-color: red;
+  width: 100%;
+}
+
+.navbar input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px 8px 10px 20px;
+}
+
+.navbar .profile {
+  max-width: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 4%;
+}
+
+.profilePic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.HomeNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+.HomeNav h2 {
+  font-size: 30px;
+}
+
+
+.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+  right: 0 !important;
+}
+
+.toggle {
+  background-color: #fff;
+  display: none;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+}
+
+
+
+.SchedulePage{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+  gap: 20px;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .loginPageContainer .loginPageLeft {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  .SideBar {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+    z-index: 999;
+    position: relative;
+
+  }
+.content{
+  margin-left: -33px;
+}
+ 
+
+  .navbar {
+    padding: 6px;
+  }
+
+  .navbar .profile {
+    max-width: 80px;
+    width: 100%;
+    margin-left: 2%;
+  }
+  .revenueCard .icondiv{
+    margin-bottom: 30px;
+  }
+
+  .scheduleContainer {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .bottom {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .HomeNav {
+    flex-direction: column-reverse;
+    margin-left: 16px;
+  }
+
+  .HomeNav h2{
+    margin-left: -50px !important;
+  }
+  #pieChart {
+    height: 240px;
+  }
+}
