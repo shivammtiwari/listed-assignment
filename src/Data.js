@@ -16,13 +16,13 @@ export const schedules = [
   {
     title : 'Meeting with suppliers from Kuta Bali',
     time:'12.00-15.00',
-    date: '5/2/2023',
+    date: new Date().toLocaleDateString(),
     address:'Sunset Road, Kuta, Bali '
   },
   {
     title : 'dummy',
     time:'18.00-20.00',
-    date: '5/2/2023',
+    date: new Date().toLocaleDateString(),
     address:'Sunset Road, Kuta, Bali '
   },
   {
